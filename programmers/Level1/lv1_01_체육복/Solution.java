@@ -1,4 +1,4 @@
-package programmers.Level1.체육복;
+package programmers.Level1.lv1_01_체육복;
 
 public class Solution {
   public static void main(String[] args) {
