@@ -4,8 +4,8 @@ public class Solution {
   public static void main(String[] args) {
     Solution solution = new Solution();
 
-    int[] a = {1, 2, 3, 4};
-    int[] b = {-3, -1, 0, 2};
+    int[] a = { 1, 2, 3, 4 };
+    int[] b = { -3, -1, 0, 2 };
 
     int result = solution.solution(a, b);
 
@@ -16,10 +16,8 @@ public class Solution {
     int answer = 0;
     int size = a.length;
     for (int i = 0; i < size; i++) {
-        answer += a[i] * b[i];
+      answer += a[i] * b[i];
     }
     return answer;
   }
 }
-
-

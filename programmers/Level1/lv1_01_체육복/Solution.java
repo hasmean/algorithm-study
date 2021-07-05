@@ -5,8 +5,8 @@ public class Solution {
     Solution solution = new Solution();
 
     int totalStudent = 5;
-    int[] lostStudents = {4, 5};
-    int[] reserveStudents = {1, 4};
+    int[] lostStudents = { 4, 5 };
+    int[] reserveStudents = { 1, 4 };
 
     int result = solution.solution(totalStudent, lostStudents, reserveStudents);
     System.out.println("결과: " + result + "명");
